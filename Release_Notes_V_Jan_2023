@@ -9,7 +9,7 @@
 * The latest versions of the civic address databases from Canadian municipalities participating in the open data innitiative at open.canada.ca/en/open-data
 
 ## New Features
-* Look up 
+* Optionally you may request the nearest points of interest to be returned with your reverse geocoding search. More on the Places Search API
 
 ## Breaking changes
 * none
