@@ -1,3 +1,6 @@
+# Release Notes – Geocoder.ca V_Jan_2023
+* Gist: More data, faster performance and stability.
+
 # geocoder.ca API (development version)
 * The autocomplete API will also return "PO Box" matches depending on the input.
 * You can geocode points on interest as well as street addresses.
