@@ -1,0 +1,19 @@
+# geocoder.ca API (development version)
+* The autocomplete API will also return "PO Box" matches depending on the input.
+* You can geocode points on interest as well as street addresses.
+* You may use both 'geonumber` as well as `latitude`,`longitude` arguments for reverse geocoding.
+
+## Internals
+* Geocoder.ca now uses a customized implementation of the Hilbert Curve for geo indexing resulting in a 50% gain in performance.
+* The latest version of street address data from statistics Canada road network file has been cleaned up and imported into the search index.
+* The latest versions of the civic address databases from Canadian municipalities participating in the open data innitiative at open.canada.ca/en/open-data
+
+## New Features
+* Look up 
+
+## Breaking changes
+* none
+
+## Minor changes
+* proper case formatting of city names and address names.
+
