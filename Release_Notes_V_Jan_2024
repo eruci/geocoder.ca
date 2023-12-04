@@ -1,7 +1,14 @@
-# Release Notes – Geocoder.ca V_Jan_2023
-* Gist: More data, faster performance and stability.
+# Release Notes – Geocoder.ca V_Jan_2024
+* Gist: Pricing Changes, Better Accuracy, faster performance, stability.
 
-# geocoder.ca API (development version)
+# Pricing Changes
+* For the first time since 2004, we are increasing our per credit pricing from $0.0025 per credit to $0.005USD per credit. (Rate limit: remains up to 10 per sec.) A lot of changes in the past 20 years, including inflation.
+* Unlimited credits: $1000USD per month (unlimited access to all API endpoints. Rate limit: up to 10 per sec.)
+* Canadian Postal Code Dataset: $808CAD one time fee + $100CAD per month for updates and more data format options (optional - the dataset is updated on the 1st day of each month). 
+
+
+
+# geocoder.ca API 
 * The autocomplete API will also return "PO Box" matches depending on the input.
 * You can geocode points on interest as well as street addresses.
 * You may use both 'geonumber` as well as `latitude`,`longitude` arguments for reverse geocoding.
